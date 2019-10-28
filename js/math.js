@@ -29,7 +29,7 @@ number2 = parseFloat(prompt("Enter a second number: "));
 if (isNaN(number1) || isNaN(number2)) {
   alert("One of the the two inputs is not a number, reload to start again.");
 } else if (number2 === 0) {
-  alert("0 is not divisable please reload and enter a number other than 0.");
+  alert("0 is not divisible please reload and enter a number other than 0.");
 } else {
   doMath(number1, number2);
 }
